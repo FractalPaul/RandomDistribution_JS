@@ -12,12 +12,12 @@ The code generates 300 random numbers and multiplies by 5, just some number to g
 Then the code calculates many parameters such as mean, standard deviation, skewness, etc.. to measure the distribution of the 300 randomly generated numbers.
 Finally a histogram is generated to show the distribution on the terminal.
 
-I use Node.js to compile the code in the terminal
-'''terminal
-$ node index.js
-'''
+I use Node.js to compile the code in the terminal:
+``` terminal
+node index.js
+```
 Outputs:...
-'''terminal
+``` terminal
 Max Radius: 5
 Total iterations: 300
 Sum of all radii: 789.6619573334558
@@ -44,4 +44,4 @@ Histogram Distribution:
 3.5 - 4.0: ********************* (32)
 4.0 - 4.5: ************************ (36)
 4.5 - 5.0: ************************* (37)
-'''
+```
